@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from "../styles/CryptoItem.module.css";
 
 interface CryptoItemProps {
     crypto: {
@@ -11,10 +12,9 @@ interface CryptoItemProps {
 
 export const CryptoItem: React.FC<CryptoItemProps> = ({ crypto }) => {
     return (
-        <div>
-            <p>Symbol: {crypto.symbol}</p>
-            <p>Name: {crypto.name}</p>
-            <p>Price: ${crypto.current_price}</p>
-        </div>
+        <>
+            {/* The only item being displayed in this component is the logo since the rest of the content is being displayed in the Ant Design's table inside the CryptoList component*/}
+            <img src={`/images/${crypto.name.toLocaleLowerCase()}.png`} alt={crypto.symbol} className={styles.crypto_image} />
+        </>
     )
 }
