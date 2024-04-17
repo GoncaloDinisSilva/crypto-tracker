@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getCryptoPrices } from './services/GeckoAPI';
 import { CryptoList } from './components/CryptoList';
 import "./App.css";
+import { Timer } from './components/Timer';
 
 const App: React.FC = () => {
   const [cryptoData, setCryptoData] = useState<any[]>([]);
@@ -21,6 +22,7 @@ const App: React.FC = () => {
     <div className="App">
       <h1>CryptoCurrency Price Tracker</h1>
       <h4>Powered by <a href='https://www.coingecko.com'>CoinGecko</a></h4>
+      <Timer />
       <CryptoList cryptoData={cryptoData} />
     </div>
   );
