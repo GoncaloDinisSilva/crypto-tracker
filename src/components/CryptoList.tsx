@@ -43,11 +43,14 @@ export const CryptoList: React.FC<CryptoListProps> = ({ cryptoData }) => {
     }));
 
     return (
-        <Table
-            columns={columns}
-            dataSource={dataSource}
-            size="middle"
-            pagination={false}
-        />
+        <div className={styles["custom-table-container"]}>
+            <Table
+                columns={columns}
+                dataSource={dataSource}
+                size="middle"
+                pagination={false}
+                className={styles["custom-table"]}
+            />
+        </div>
     );
 };

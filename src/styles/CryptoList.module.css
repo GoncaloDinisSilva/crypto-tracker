@@ -1,5 +1,9 @@
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+.custom-table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-table {
+    width: 50%;
+    height: 100%;
 }
