@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { getCryptoPrices } from './services/GeckoAPI';
 import { CryptoList } from './components/CryptoList';
-import "./App.css";
 import { Timer } from './components/Timer';
+import "./App.css";
 
 const App: React.FC = () => {
   const [cryptoData, setCryptoData] = useState<any[]>([]);
