@@ -1,12 +1,48 @@
 # Crypto Price Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using Typescript.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Software & Programming languages
 
-In the project directory, you can run:
+* Visual Code
+* React
+* Express.js
+* Node.js
+* TypeScript
+* HTML
+* CSS
 
-### `npm start`
+## Other used resources
+
+* CoinGecko API
+* Ant Design
+
+## Complete functionalities
+
+* Displaying a list or table of at least 5 popular cryptocurrencies with the following information:
+*  Name
+*  Symbol
+*  Current price
+* Update the prices at regular intervals (60s) without a full page refresh
+
+## Future functionalities
+
+* Track/Untrack specific cryptocurrencies
+* Search bar
+* Price History chart
+* Localstorage to persist user's tracked cryptocurrencies
+
+
+
+## How to run the project
+
+In the project's directory, you need to install all dependencies by running the following command:
+
+### `npm install`
+
+After everything is installed, you can start the project by running:
+
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
