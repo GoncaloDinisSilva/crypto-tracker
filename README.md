@@ -20,9 +20,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Complete functionalities
 
 * Displaying a list or table of at least 5 popular cryptocurrencies with the following information:
-*  Name
-*  Symbol
-*  Current price
+ - Name
+ - Symbol
+ - Current price
 * Update the prices at regular intervals (60s) without a full page refresh
 
 ## Future functionalities
